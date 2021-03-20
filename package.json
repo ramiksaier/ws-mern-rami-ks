@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"back":"nodemon server"  ,
+"front":"cd client && npm start",
+"dev":"concurrently \"npm run back\" \"npm run front\""
+
+},
   "author": "rami ksaier",
   "license": "ISC",
   "dependencies": {
@@ -13,5 +16,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.12.0",
     "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
   }
 }
