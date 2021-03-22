@@ -1,3 +1,59 @@
 .App {
   text-align: center;
+  background: url("https://images.hdqwalls.com/wallpapers/bthumb/galaxy-stars-space-dark-background-5k-3d.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.listcontact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.spi {
+  height: 800px;
+  width: 400px;
+}
+.foot {
+  margin: 400px;
+}
+.title {
+  color: blueviolet;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 100;
+  font-style: italic;
+}
+.inpu {
+  margin: 15%;
+}
+.btndelete {
+  padding: 0px 50px;
+  margin-left: 30px;
+  margin-top: 5%;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: white;
+  background: #6225e6;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+}
+.btndelete:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 #fbc638;
+}
+
+.btndelete:hover path.one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+.btndelete:hover path.two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+.btndelete:hover path.three {
+  animation: color_anim 1s infinite 0.2s;
 }
