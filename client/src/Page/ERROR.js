@@ -6,7 +6,7 @@ const Errors = ({ history }) => {
       <img
         style={{ margin: "7%" }}
         src="https://assets.prestashop2.com/sites/default/files/blog/2019/10/banner_error_404.jpg"
-      />
+      alt="img"/>
       <br />
       <button
         style={{

@@ -8,6 +8,8 @@ const Home = () => {
   const dispatch = useDispatch();
   return (
     <div>
+      <h1 className="bigtitle">Welcome to my MERN application</h1>
+
       <Link to="/add">
         <button className="btndelete" onClick={() => dispatch(toggle_add())}>
           add contact

@@ -41,6 +41,66 @@
   box-shadow: 6px 6px 0 black;
   transform: skewX(-15deg);
 }
+.bigtitle {
+  color: burlywood;
+  margin-left: 75px;
+  padding-top: 50px;
+}
+.bigtitle:first-of-type {
+  animation: showup 2s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 355px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 355px;
+  }
+}
+
 .btndelete:hover {
   transition: 0.5s;
   box-shadow: 10px 10px 0 #fbc638;
