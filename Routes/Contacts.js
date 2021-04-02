@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const Contact = require("../Contact");
-const controleur = require("./Controllers/ContactControlleur");
+const Contact = require("../Models/Contact");
+const controleur = require("../Controllers/ContactControlleur");
 
 router.get("/h", (req, res) => {
   res.send("hello word");

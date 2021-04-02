@@ -8,7 +8,7 @@ dbconnect();
 //midelwaire
 app.use(express.json());
 //create route
-app.use("/api/contact", require("./Config/Models/Routes/Contacts"));
+app.use("/api/contact", require("./Routes/Contacts"));
 
 //connect to server
 const PORT = process.env.PORT;
